@@ -8,7 +8,7 @@ services:
     environment:
       PYTHONUNBUFFERED: 1
       API_URL: http://qmk_api:5001/
-      #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
+      QMK_GIT_URL: https://github.com/dlford/qmk_firmware.git
       #QMK_GIT_BRANCH: master
       FLASK_GRAPHITE_HOST: qmk_metrics_aggregator
       REDIS_HOST: redis
@@ -65,7 +65,7 @@ services:
       PYTHONUNBUFFERED: 1
       API_URL: http://qmk_api:5001/
       LOG_LEVEL: DEBUG
-      #QMK_GIT_URL: https://github.com/qmk/qmk_firmware.git
+      QMK_GIT_URL: https://github.com/dlford/qmk_firmware.git
       #QMK_GIT_BRANCH: master
       REDIS_HOST: redis
       RELOAD: 1
